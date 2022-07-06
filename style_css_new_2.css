@@ -364,7 +364,6 @@ p.red_p_2 {
 .pill_dr_content {
 	display: none;
 	width: 217px;
-	/*padding: 10px 27px 10px 30px;*/
 	padding: 10px 0 10px 0;
 	background: #FFF;
 	box-shadow: 0 0 24px rgba(0, 0, 0, .12);
@@ -396,10 +395,6 @@ p.red_p_2 {
 
 .pill_dr_content > .inner::-webkit-scrollbar-thumb:hover {
   background: #E41213; }
-
-.more_table {
-
-}
 
 .more_table_row {
 	display: flex;
@@ -497,4 +492,12 @@ p.red_p_2 {
 
 .table_row_2 .cell:nth-child(2) {
 	border-right: none;
+}
+
+.table_header_2_2 {
+	background: #BDE0FE;
+}
+
+.table_row_2_2 {
+	background: #FFF4F4;
 }
