@@ -1,3 +1,5 @@
+/*-- Section 1 - Subscriptions Variants Page --*/
+
 .h2_wrapp_2 {
     padding: 37px 0 18px 0;
 }
@@ -371,7 +373,7 @@ p.red_p_2 {
 	position: absolute;
 	top: calc(100% + 6px);
 	right: 0;
-	z-index: 3;
+	z-index: 5;
 }
 
 .pill_dr_content > .inner {
@@ -501,3 +503,311 @@ p.red_p_2 {
 .table_row_2_2 {
 	background: #FFF4F4;
 }
+
+/*-- /Section 1 - Subscriptions Variants Page --*/
+
+/*-- Section 1 - Subscriptions Variants Tarifs Page --*/
+
+.subscriptions_inlines_wrapp {
+	padding-left: 16%;
+}
+
+.subscriptions_variants_table {
+    margin: 10px 0 8px 0;
+}
+
+.subscriptions_variants_table .table_row {
+	display: flex;
+}
+
+.subscriptions_variants_table .table_row .cell {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	min-height: 51px;
+	border-right: 1px solid #F2F6F9;
+	border-bottom: 1px solid #F2F6F9;
+	padding: 5px 23px;
+	-webkit-transition-property: background;
+    -webkit-transition-duration: .3s;
+    -webkit-transition-timing-function: ease;
+
+    -moz-transition-property: background;
+    -moz-transition-duration: .3s;
+    -moz-transition-timing-function: ease;
+
+    -ms-transition-property: background;
+    -ms-transition-duration: .3s;
+    -ms-transition-timing-function: ease;
+
+    -o-transition-property: background;
+    -o-transition-duration: .3s;
+    -o-transition-timing-function: ease;
+
+    transition-property: background;
+    transition-duration: .3s;
+    transition-timing-function: ease;
+}
+
+.subscriptions_variants_table .table_row .cell:last-child {
+	border-right: none;
+}
+
+.subscriptions_variants_table .table_header .cell {
+	min-height: 47px;
+	background: #EEF7FF;
+}
+
+.subscriptions_variants_table .table_row.table_header .cell:nth-child(1) {
+	background: transparent !important;
+}
+
+.subscriptions_variants_table .table_row .cell:nth-child(1) {
+	width: 16%;
+	justify-content: flex-start;
+	border-right: none;
+	text-align: left;
+	background: #EEF7FF;
+	border-bottom: none;
+}
+
+.subscriptions_variants_table .table_row:nth-child(odd) .cell:nth-child(1) {
+	background: #F6FCFF;
+}
+
+.subscriptions_variants_table .table_row .cell:nth-child(2) {
+	width: 16.8%;
+}
+
+.subscriptions_variants_table .table_row .cell:nth-child(3) {
+	width: 16.8%;
+}
+
+.subscriptions_variants_table .table_row .cell:nth-child(4) {
+	width: 16.8%;
+}
+
+.subscriptions_variants_table .table_row .cell:nth-child(5) {
+	width: 16.8%;
+}
+
+.subscriptions_variants_table .table_row .cell:nth-child(6) {
+	width: 16.8%;
+}
+
+.subscriptions_variants_table .table_row .cell.hover {
+	background: #F6FCFF;
+}
+
+.subscriptions_variants_table .cell > h3 {
+	padding-top: 2px;
+	font-weight: 800;
+	font-size: 17px;
+	line-height: 1.2;
+	text-transform: uppercase;
+	color: #265979;
+}
+
+.subscriptions_variants_table .cell > p {
+	font-weight: 900;
+	font-size: 14px;
+	line-height: 1.2;
+	letter-spacing: .02em;
+	color: #000;
+}
+
+.subscriptions_variants_table .pill_dr {
+    top: 3px;
+}
+
+.pill_dr_title_2 {
+	display: inline-block;
+	vertical-align: top;
+	min-width: auto;
+	min-height: auto;
+	position: relative;
+	border: none;
+	background: transparent;
+	padding: 0 20px 0 0;
+	box-shadow: none !important;
+}
+
+.pill_dr_title_2 p {
+	font-weight: 900;
+	padding-right: 0;
+	font-size: 14px;
+	line-height: 1.2;
+	color: #E41213 !important;
+}
+
+p.red_p {
+	color: #E41213 !important;
+}
+
+.pill_dr_title:after {
+	position: absolute;
+	top: 6px;
+	right: 0;
+}
+
+.pill_dr_content_2 {
+	top: calc(100% + 2px);
+	right: auto;
+	left: 50%;
+	transform: translate(-50%, 0);
+	-webkit-transform: translate(-50%, 0);
+}
+
+.ch_pill {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 6px 25px;
+	background: #E41213;
+	font-weight: 900;
+	font-size: 16px;
+	line-height: 18px;
+	letter-spacing: .04em;
+	text-transform: uppercase;
+	color: #FFF;
+	opacity: 0;
+	-webkit-transition-property: opacity;
+    -webkit-transition-duration: .3s;
+    -webkit-transition-timing-function: ease;
+
+    -moz-transition-property: opacity;
+    -moz-transition-duration: .3s;
+    -moz-transition-timing-function: ease;
+
+    -ms-transition-property: opacity;
+    -ms-transition-duration: .3s;
+    -ms-transition-timing-function: ease;
+
+    -o-transition-property: opacity;
+    -o-transition-duration: .3s;
+    -o-transition-timing-function: ease;
+
+    transition-property: opacity;
+    transition-duration: .3s;
+    transition-timing-function: ease;
+}
+
+.ch_pill:link,
+.ch_pill:visited {
+	opacity: 0;
+}
+
+.ch_pill:active,
+.ch_pill.active {
+	opacity: 1;
+}
+
+.ch_pill:hover {
+	opacity: 1;
+}
+
+.cell.hover .ch_pill {
+	opacity: 1;
+}
+
+.subscriptions_variants_table .table_row.table_footer .cell {
+	padding: 0;
+	border: none;
+	background: transparent !important;
+}
+
+.subscriptions_variants_table .ch_pill {
+	height: 100%;
+	width: 100%;
+}
+
+.popup_title_descript {
+	padding: 20px 0 20px 0;
+	text-align: center;
+}
+
+.popup_title_descript h3 {
+	padding: 7px 0;
+	font-weight: 800;
+	font-size: 17px;
+	line-height: 15px;
+	text-transform: uppercase;
+	color: #E41213;
+}
+
+.popup_title_descript p {
+	padding: 7px 0;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 1.2;
+	letter-spacing: .02em;
+	color: #000;
+}
+
+.subscriptions_popup_table {
+    padding: 20px 0 20px 0;
+}
+
+.subscriptions_popup_table .table_row {
+	display: flex;
+}
+
+.subscriptions_popup_table .table_row > div:nth-child(1) {
+	width: calc(100% - 140px);
+	padding: 6px 5px 6px 0;
+}
+
+.subscriptions_popup_table .table_row > div:nth-child(2) {
+	width: 140px;
+	padding: 6px 0 6px 5px;
+	text-align: right;
+}
+
+.subscriptions_popup_table .table_row > div:nth-child(1) p {
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 1.2;
+	letter-spacing: .02em;
+	color: #000;
+}
+
+.subscriptions_popup_table .table_row > div:nth-child(2) p {
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 1.2;
+	letter-spacing: .02em;
+	color: #7A7A7A;
+}
+
+.subscriptions_popup_table .table_row.red > div:nth-child(1) p {
+	color: #E41213;
+}
+
+.subscriptions_popup_table .table_row.red > div:nth-child(2) p {
+	color: #E41213;
+}
+
+p.subscriptions_price {
+	font-weight: 900 !important;
+	color: #E41213 !important;
+}
+
+.subscriptions_popup_footer {
+	padding: 36px 0 21px 0;
+	text-align: center;
+}
+
+.subscriptions_red_pill {
+	min-width: 170px;
+	font-family: 'Gilroy';
+	font-weight: 900;
+	font-size: 16px;
+	line-height: 18px;
+	letter-spacing: .04em;
+	text-transform: uppercase;
+	color: #FFF;
+}
+
+
+/*-- /Section 1 - Subscriptions Variants Tarifs Page --*/

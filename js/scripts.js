@@ -872,6 +872,19 @@ $(document).ready(function() {
       }
   });
 
-  
+  $(".subscriptions_variants_table .cell").on("mouseover", function() {
+    parent = $(this).closest(".subscriptions_variants_table");
+    index = $(this).index();
+    $(".subscriptions_variants_table .table_row .cell").removeClass("hover");
+    parent.find(".table_row").each(function() {
+      if(index > 0) {
+        $(this).find(".cell:eq("+index+")").addClass("hover");
+      }
+    });
+  });
+
+  $(".subscriptions_variants_table").on("mouseleave", function() {
+    $(".subscriptions_variants_table .table_row .cell").removeClass("hover");
+  });
     
 });
