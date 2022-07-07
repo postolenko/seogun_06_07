@@ -809,5 +809,122 @@ p.subscriptions_price {
 	color: #FFF;
 }
 
-
 /*-- /Section 1 - Subscriptions Variants Tarifs Page --*/
+
+/*-- Section 1 - About Page --*/
+
+.about_templ_2 {
+	display: flex;
+}
+
+.about_templ_2 > .left {
+	width: 840px;
+}
+
+.about_templ_2 > .right {
+	width: calc(100% - 840px);
+}
+
+.list_3 {
+    margin: 32px 0 20px 0;
+}
+
+.list_3 li {
+	margin: 5px 0;
+	padding: 10px 0 10px 33px;
+	position: relative;
+	font-weight: 700;
+	font-size: 19px;
+	line-height: 23px;
+	letter-spacing: .02em;
+	color: #000;
+}
+
+.list_3 li:before {
+    display: block;
+    content: "";
+    width: 18px;
+    height: 31px;
+    background: url(img/item_mark_2.png) no-repeat center;
+    position: absolute;
+    top: 6px;
+    left: 0;
+}
+
+/*-- /Section 1 - About Page --*/
+
+
+.footer_section {
+	position: relative;
+	z-index: 3;
+}
+
+.inlines {
+	align-items: center;
+	margin: 0 0 0 10%;
+}
+
+.inlines > div {
+    padding: 0 50px;
+}
+
+.footer_section p {
+    line-height: 16px;
+}
+
+.inlines > div.payments_list_wrapp {
+	padding-left: 10%;
+}
+
+.payments_list {
+	display: flex;
+}
+
+.payments_list li {
+	padding: 0 7px;
+    line-height: 1;
+}
+
+.payments_list li a {
+	display: block;
+	line-height: 1;
+}
+
+.payments_list li a img {
+	display: block;
+	max-width: 100%;
+	width: auto;
+}
+
+.inlines .white_link {
+	position: relative;
+    top: 2px;
+}
+
+
+@media only screen and (max-width: 1600px) {
+
+	.about_templ_2 > .left {
+	    width: 670px;
+	}
+
+	.about_templ_2 > .right {
+		width: calc(100% - 670px);
+	}
+
+	.about_templ_2 .about_img {
+	    width: 99%;
+	}
+
+}
+
+@media only screen and (max-width: 1024px) {
+
+	.about_templ_2 > .left {
+		display: none;
+	}
+
+	.about_templ_2 > .right {
+		width: 100%;
+	}
+}
